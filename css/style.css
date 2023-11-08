@@ -1,0 +1,93 @@
+/* geral */
+
+html {
+	font-family: 'Open sans', 'sans-serif';
+	color: #373A3C;
+}
+
+a {
+	transition: .5s;
+}
+
+/* sidebar */
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color:rgba(255, 169, 160, 0.911); 
+	padding-top: 40px;
+}
+
+#sidebar h1 {
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+#sidebar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#sidebar a:hover {
+	color: #563621;
+}
+
+#sidebar li {
+	padding: 10px;
+}
+
+.sidebar-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+.logo-doceria {
+	width: 250px;
+	margin-top: -40px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* conteudo */
+
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+	color: #563621;
+	margin-bottom: 30px;	
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+div main section {
+	padding-left: 50px;
+}
+
+/* sessão bem-vindo */
+
+#sessao-bemvindo {
+	padding-left: 0;
+} 
+
+.sessao-bemvindo-content {
+	padding-left: 50px;
+}
